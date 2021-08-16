@@ -24,6 +24,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Competitive programming
   <ul>
     <li><a href="https://codeforces.com/profile/ShafinKhadem">Codeforces</a></li>
+    <li><a href="https://icpc.global/ICPCID/9EFGNS7MSVFI">ICPC</a></li>
     <li><a href="https://atcoder.jp/users/ShafinKhadem">Atcoder</a></li>
   </ul>
 baseurl: "" # the subpath of your site, e.g. /blog

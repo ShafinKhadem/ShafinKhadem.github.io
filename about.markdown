@@ -4,4 +4,6 @@ title: About
 permalink: /about/
 ---
 
-**Hello darkness my old friend, I've come to talk with you again.**
+**I am/was a competitive programmer. You can find my profiles in various programming contest platforms in the rightmost column of the footer.**
+
+My top achievements are getting 9th position in ICPC regional Bangladesh 2020 and getting "Master" rank at codeforces.
