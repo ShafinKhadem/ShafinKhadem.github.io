@@ -52,8 +52,10 @@
                         <i class="fas fa-map-marker me-1"></i>Dhaka, Bangladesh
                     </div>
                     <p class="lead">
-                        Hello, I am Nafiur Rahman Khadem, currently working as Software Engineer II at <a href="https://www.optimizely.com/">Optimizely</a>. I graduated from <a href="https://www.buet.ac.bd/web/">Bangladesh University of Engineering and Technology</a> in 2022 with a B.Sc in Computer Science and Engineering. I have great passion for problem-solving, I was a competitive programmer during undergrad and represented my university in national programming competitions. My proudest accomplishments are getting <a href="https://icpc.global/ICPCID/9EFGNS7MSVFI">9th place in ICPC regional</a> and <a href="https://codeforces.com/profile/ShafinKhadem">2100+ rating (top 4%) in codeforces</a>.
+                        Hello, I am Nafiur Rahman Khadem, currently a PhD student pusuing systems research at Kahlert School of Computing in the University of Utah. I have 3 years of experience working as a software engineer at <a href="https://www.optimizely.com/">Optimizely</a>.
                     </p>
+                    <p class="lead">
+                        I have great passion for problem-solving, I was a competitive programmer during undergrad and represented my university in many programming competitions. My proudest accomplishments are getting <a href="https://icpc.global/ICPCID/9EFGNS7MSVFI">9th place in ACM ICPC regional</a> and <a href="https://codeforces.com/profile/ShafinKhadem">2100+ rating (top 4%) in codeforces</a> <i>before the era of AI-assisted programming</i>.
                     <p class="lead">
                         My research interests broadly lie in:
                         <div class="lead">
@@ -91,6 +93,20 @@
             <section class="resume-section" id="education">
                 <div class="resume-section-content">
                     <h2 class="mb-5 text-primary">Education</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <div class="d-flex gap-2 flex-md-row align-items-center mb-3">
+                                <a href="https://www.cs.utah.edu/"><img src="assets/img/UU-Logo-CTR_RGB.png" alt="..." width="70" height="70" /></a>
+                                <h3 class="mb-0">University of Utah</h3>
+                            </div>
+                            <div class="subheading mb-3">PhD</div>
+                            <p>Computer Science</p>
+                            <p>
+                                <b>Courses taken:</b> Distributed Systems, Sustainable Computing
+                            </p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">Aug 2025 - Now</span></div>
+                    </div>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
                             <div class="d-flex gap-2 flex-md-row align-items-center mb-3">
@@ -173,6 +189,25 @@
                     <h2 class="mb-5 text-primary">Research</h2>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
+                            <h3 class="mb-0"><a href="https://drive.google.com/file/d/1M1cblIQahhUQ_5ES0mrE6dRMxKYwa-8r/view?usp=share_link">Decentralized Serverless Scheduler</a></h3>
+                            <ul>
+                                <li>
+                                    Built a decentralized serverless system using libp2p.
+                                </li>
+                                <li>
+                                    Designed an algorithm that finds the best peer to execute a function and gradually increases the search scope.
+                                </li>
+                                <li>
+                                    Reduced cold start by half through mapping functions and nodes to a distributed hash table.
+                                </li>
+                            </ul>
+
+                            <!-- <div class="subheading mb-3">Status: Ongoing Research Project </div> -->
+                        </div>
+                    </div>
+
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
                             <h3 class="mb-0"><a href="https://drive.google.com/file/d/1M1cblIQahhUQ_5ES0mrE6dRMxKYwa-8r/view?usp=share_link">Deception Detection Using EEG Methodologies</a></h3>
                             <div class="subheading mb-3">Supervised by: <a href="https://cse.buet.ac.bd/faculty/faculty_detail/ashikurrahman">Dr. A.K.M. Ashikur Rahman</a></div>
                             <ul>
@@ -203,7 +238,7 @@
                 <div class="resume-section-content">
                     <h2 class="mb-5" style="color: #003f88;">Projects</h2>
 
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <!-- <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
                             <h3 class="mb-0" style="color: #003f88;"><a href="https://github.com/ShafinKhadem/ML-assignments/blob/main/Butterfly%20species%20classification%20and%20similar%20image%20recommender%20mobilenetv3small.ipynb">Butterfly species classification & similar image recommender</a></h3>
                             <ul>
@@ -228,6 +263,17 @@ for similar images using the trained embedding with cosine similarity.
                             </ul>
                         </div>
                         <div class="flex-shrink-0"><span class="text-primary">2022</span></div>
+                    </div> -->
+
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0" style="color: #003f88;"><a href="https://github.com/ShafinKhadem/raft-kvs">Distributed fault-tolerant key-value store with almost-local reads</a></h3>
+                            <ul>
+                                <li>Implemented a distributed fault-tolerant linearizable key value store based on raft consensus protocol.</li>
+                                <li>Increased read throughput by allowing backup replicas to process read requests without violating linearizability, using <a href="https://www.vldb.org/pvldb/vol18/p2831-giortamis.pdf">almost-local reads</a>.</li>
+                            </ul>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">2025</span></div>
                     </div>
 
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
@@ -294,7 +340,7 @@ for similar images using the trained embedding with cosine similarity.
                     <ul class="fa-ul mb-0">
                         <li>
                             <span class="fa-li"><i class="fas fa-check"></i></span>
-                            <b>Programming Languages:</b> Python, C++, Typescript, Java
+                            <b>Programming Languages:</b> Python, C++, Go, Typescript, Java
                         </li>
                         <li>
                             <span class="fa-li"><i class="fas fa-check"></i></span>
